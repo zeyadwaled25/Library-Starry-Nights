@@ -20,7 +20,7 @@ function ReadingMode() {
 
   useEffect(() => {
     // استرداد المحتوى من localStorage
-    const cachedStory = localStorage.getItem(`story_${id}`);
+    const cachedStory = localStorage.getItem(`story_1`);
     
     if (cachedStory) {
       try {

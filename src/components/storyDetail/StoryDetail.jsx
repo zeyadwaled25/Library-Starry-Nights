@@ -32,7 +32,7 @@ function StoryDetail() {
     const loadStoryFromFile = async () => {
       try {
         // محاولة استرداد المحتوى من localStorage
-        const cachedStory = localStorage.getItem(`story_${id}`);
+        const cachedStory = localStorage.getItem(`story_1`);
         
         if (cachedStory) {
           const parsedStory = JSON.parse(cachedStory);
