@@ -1,0 +1,25 @@
+.texts-section {
+  background: linear-gradient(to bottom, rgba(245, 247, 250, 0.7), rgba(230, 235, 240, 0.5));
+}
+
+.texts-section .text-card {
+  background: linear-gradient(to bottom, rgba(245, 247, 250, 0.7), rgba(230, 235, 240, 0.5));
+  transition: transform 0.3s ease-in-out;
+}
+
+.texts-section .text-card:hover {
+  transform: translateY(-5px);
+}
+
+.text-title {
+  font-weight: bold;
+  color: #1a2a47;
+}
+
+.text-content {
+  font-size: 16px;
+}
+
+.text-author {
+  font-style: italic;
+}

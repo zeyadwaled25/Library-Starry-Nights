@@ -1,0 +1,121 @@
+.story-detail-section {
+  direction: rtl;
+  /* padding: 30px; */
+  margin-top: 60px;
+}
+
+.story-cover-container {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.story-title {
+  color: var(--third-dark);
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.story-meta {
+  color: var(--secondary-blue);
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.author {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.category-badge {
+  background-color: var(--primary-light);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.star-icon {
+  color: var(--star-gold);
+}
+
+.read-time, .views {
+  display: flex;
+  align-items: center;
+  color: var(--secondary-blue);
+  font-size: 0.875rem;
+}
+
+.story-summary, .story-preview {
+  background-color: var(--light-bg);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.story-summary h4, .story-preview h4 {
+  color: var(--third-dark);
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.preview-text {
+  color: var(--text-dark);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.read-mode-btn {
+  background-color: var(--third-dark);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.read-mode-btn:hover {
+  background-color: var(--secondary-blue);
+  transform: translateY(-2px);
+}
+
+.continue-reading-btn {
+  background-color: var(--primary-light);
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.continue-reading-btn:hover {
+  background-color: var(--third-dark);
+}
+
+.share-btn, .comment-btn {
+  background-color: var(--light-bg);
+  border: 1px solid var(--border-light);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.share-btn:hover, .comment-btn:hover {
+  background-color: var(--background-light);
+}
+
+.bookmark-filled {
+  color: var(--third-dark);
+}
+
+.bookmark {
+  color: var(--third-dark);
+}

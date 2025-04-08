@@ -1,0 +1,30 @@
+:root {
+  --background-light: #F5F7FA;
+  --navbar-bg: #ffffff;
+  --light-bg: #ffffff;
+  --primary-light: #5d779e;
+  --secondary-blue: #42495d;
+  --third-dark: #1a2a47;
+  --accent-teal: #5BC0BE;
+  --text-dark: #2C3E50;
+  --text-light: #ffffff;
+  --border-light: #E0E4E8;
+  --star-gold: #FFD700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Amiri", serif;
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--text-dark);
+}
+
+.ptb-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}

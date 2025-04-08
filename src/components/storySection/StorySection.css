@@ -1,0 +1,126 @@
+.story-section {
+  background: linear-gradient(to bottom, rgba(245, 247, 250, 0.7), rgba(230, 235, 240, 0.5));
+  padding: 80px 0;
+}
+
+.heading h1 {
+  color: #1a2a47;
+  font-family: 'Amiri', serif;
+  font-size: 2.2rem;
+  position: relative;
+}
+
+.heading::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(to right, var(--primary-light), var(--accent-teal));
+}
+
+.view-more-btn {
+  background-color: var(--third-dark);
+  color: #f9f3e5;
+  padding: 10px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.view-more-btn:hover {
+  background-color: var(--secondary-blue);
+}
+
+.story-card {
+  background-color: var(--light-bg);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  height: 350px;
+  border: 1px solid var(--border-light);
+}
+
+.story-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.story-cover {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.story-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+}
+
+.story-card:hover .story-cover img {
+  filter: brightness(0.7);
+}
+
+.story-info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background: linear-gradient(to top, rgba(44, 62, 80, 0.9), transparent);
+  color: white;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.story-card:hover .story-info {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.story-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.story-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.story-category {
+  background-color: var(--accent-teal);
+  color: var(--text-dark);
+  padding: 0.2rem 0.5rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.story-rating {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  color: var(--star-gold);
+  margin-right: 0.2rem;
+  font-size: 20px;
+  margin-left: 3px;
+}
+
+.bookmark {
+  color: #FFF;
+}

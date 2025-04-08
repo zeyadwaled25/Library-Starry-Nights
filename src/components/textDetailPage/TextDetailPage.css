@@ -1,0 +1,56 @@
+.text-detail-page {
+  font-family: 'Cairo', sans-serif;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.detail-card {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.text-title {
+  color: #1a2a47;
+  font-weight: 700;
+  font-size: 2rem;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.text-meta {
+  font-size: 0.9rem;
+}
+
+.text-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: justify;
+  color: #444;
+}
+
+.back-btn {
+  color: #1a2a47;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 16px;
+  border: 1px solid #1a2a47;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #1a2a47;
+  color: white;
+}
+
+.text-not-found h2 {
+  color: #dc3545;
+}
+
+.back-link {
+  color: #1a2a47;
+  text-decoration: none;
+  font-weight: 600;
+}
+

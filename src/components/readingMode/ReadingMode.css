@@ -1,0 +1,143 @@
+.reading-mode {
+  direction: rtl;
+  background-color: var(--background-light);
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.reading-controls {
+  position: sticky;
+  top: 0;
+  background-color: var(--light-bg);
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.control-btn {
+  background: none;
+  border: none;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--third-dark);
+}
+
+.control-btn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.story-content-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: var(--light-bg);
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.story-title {
+  color: var(--third-dark);
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.story-author {
+  color: var(--secondary-blue);
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.story-content {
+  line-height: 1.9;
+  color: var(--text-dark);
+  transition: all 0.3s ease;
+}
+
+.story-paragraph {
+  margin-bottom: 20px;
+}
+
+.story-end-mark {
+  text-align: center;
+  font-size: 24px;
+  color: var(--secondary-blue);
+}
+
+.reading-footer {
+  text-align: center;
+}
+
+.back-to-details-btn {
+  background-color: var(--primary-light);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.back-to-details-btn:hover {
+  background-color: var(--third-dark);
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #1a1a2e;
+  color: #e6e6e6;
+}
+
+.dark-mode .reading-controls {
+  background-color: #16213e;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .control-btn {
+  color: #e6e6e6;
+}
+
+.dark-mode .control-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .story-content-container {
+  background-color: #16213e;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .story-title {
+  color: #e6e6e6;
+}
+
+.dark-mode .story-author {
+  color: #a0a0a0;
+}
+
+.dark-mode .story-content {
+  color: #e6e6e6;
+}
+
+.dark-mode .story-end-mark {
+  color: #a0a0a0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .reading-controls-center {
+    display: flex;
+  }
+  
+  .story-content-container {
+    padding: 20px 15px;
+    margin: 30px auto;
+    max-width: 90%;
+  }
+}
