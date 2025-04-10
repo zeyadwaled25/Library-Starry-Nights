@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import "./Navbar.css"
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
 
@@ -39,19 +40,19 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#story-section">
+              <HashLink className="nav-link" smooth to="/#story-section">
                 القصص
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                الأقتبسات
+                الاقتباسات
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#texts-section">
+              <HashLink className="nav-link" smooth to="/#texts-section">
                 النصوص
-              </a>
+              </HashLink>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">

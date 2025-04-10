@@ -1,4 +1,4 @@
-import { ArrowRight, Calendar, Clock } from "lucide-react";
+import { ArrowRight, Calendar, Clock, Instagram } from "lucide-react";
 import { useParams, Link } from "react-router-dom";
 import "./TextDetailPage.css";
 
@@ -60,9 +60,10 @@ function TextDetailPage() {
                 <span>{selectedText.date}</span>
               </div>
               <div className="date-time d-flex align-items-center text-muted">
-                <Clock size={16} className="ms-1" />
+                <Clock size={16} className="ms-1 me-2" />
                 <span>{selectedText.hour}</span>
               </div>
+              <a className="me-2 mb-1" href="https://www.instagram.com/a1o9?igsh=aG51NmU4emE4YmYz" target="_blank"><Instagram size={16} /></a>
             </div>
           </div>
           

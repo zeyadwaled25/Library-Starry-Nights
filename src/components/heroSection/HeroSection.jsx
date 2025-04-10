@@ -29,7 +29,7 @@ function HeroSection() {
           <div className="featured-categories mt-5">
             <div className="d-flex justify-content-center gap-3 flex-wrap">
               <a href="#" className="category-pill">القصص</a>
-              <a href="#" className="category-pill">الأقتبسات</a>
+              <a href="#" className="category-pill">الاقتباسات</a>
               <a href="#" className="category-pill">النصوص</a>
               <a href="#" className="category-pill">مراجعات الكتب</a>
             </div>
